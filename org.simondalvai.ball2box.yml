@@ -29,10 +29,10 @@ modules:
         sha256: 971b4a47bda0aa3f0bc6e1766b61eb848d0e10156505fef1f66531ac375bd5d4
         
       - type: file
-        url: https://raw.githubusercontent.com/dulvui/ball2box/c513c8e6ebad6bc0d09f657b977c2bc4fac27765/flatpak/org.simondalvai.ball2box.desktop
+        url: https://raw.githubusercontent.com/dulvui/ball2box/a51880d91f5b0233394c691e498cd56e54e36149/flatpak/org.simondalvai.ball2box.desktop
         sha256: 6a6d1d14649730dc3c61ce8c62baed9d2b8f2c71c801b1a8420275361bdff2e1
       - type: file
-        url: https://raw.githubusercontent.com/dulvui/ball2box/c513c8e6ebad6bc0d09f657b977c2bc4fac27765/flatpak/org.simondalvai.ball2box.appdata.xml
-        sha256: 11ae1058d17e62d2ea8764299becc04bd5443dd6e323c4205e6dd09484bd9c09
+        url: https://raw.githubusercontent.com/dulvui/ball2box/a51880d91f5b0233394c691e498cd56e54e36149/flatpak/org.simondalvai.ball2box.appdata.xml
+        sha256: 86f780159ad80602e21ab71955061a3599359a90c21292a728964faab7eab4f3
       - type: file
         path: icon-256.png
