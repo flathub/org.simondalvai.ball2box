@@ -25,14 +25,14 @@ modules:
       # The game is pulled from GitHub
       - type: archive
         strip-components: 0
-        url: https://github.com/dulvui/ball2box/releases/download/v4.1.0/ball2box.tar.xz
-        sha256: 971b4a47bda0aa3f0bc6e1766b61eb848d0e10156505fef1f66531ac375bd5d4
+        url: https://github.com/dulvui/ball2box/releases/download/v4.1.1/ball2box.tar.xz
+        sha256: 5df2bc60bf2c575fb1d527fff52998366784a8bef5325fd292e49b6d185d096e
         
       - type: file
-        url: https://raw.githubusercontent.com/dulvui/ball2box/350a39a4eabc989145d22fbe0be0b4ae69033c71/flatpak/org.simondalvai.ball2box.desktop
+        url: https://raw.githubusercontent.com/dulvui/ball2box/5c3327d045e25cbbc36aa499826f6762b6a15327/flatpak/org.simondalvai.ball2box.desktop
         sha256: 6a6d1d14649730dc3c61ce8c62baed9d2b8f2c71c801b1a8420275361bdff2e1
       - type: file
-        url: https://raw.githubusercontent.com/dulvui/ball2box/350a39a4eabc989145d22fbe0be0b4ae69033c71/flatpak/org.simondalvai.ball2box.appdata.xml
-        sha256: c4aa1c9d9f3091c0be44269f591589bf5fc181c172a06f6882981345331f9552
+        url: https://raw.githubusercontent.com/dulvui/ball2box/5c3327d045e25cbbc36aa499826f6762b6a15327/flatpak/org.simondalvai.ball2box.appdata.xml
+        sha256: b009abe9b77ba9ccbd89446d9a790d02688f8b6f998727f61b587f7012d14a33
       - type: file
         path: icon-256.png
