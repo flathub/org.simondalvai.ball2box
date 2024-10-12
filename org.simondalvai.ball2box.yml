@@ -1,9 +1,9 @@
 app-id: org.simondalvai.ball2box
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 base: org.godotengine.godot.BaseApp
-base-version: '3.5-23.08'
+base-version: '3.6'
 command: godot-runner
 finish-args:
   - --share=ipc
@@ -25,14 +25,13 @@ modules:
       # The game is pulled from GitHub
       - type: archive
         strip-components: 0
-        url: https://github.com/dulvui/ball2box/releases/download/v4.1.2/ball2box.tar.xz
-        sha256: a738392013060b56321c5321fe7a19bf05a8c41123ac6550cb3a3c3a9adf4324
-        
+        url: https://github.com/dulvui/ball2box/releases/download/v4.1.4/ball2box.tar.xz
+        sha256: a98ec470653118007b660549283231bec3163b644b444cb54f2226ce49d353b0
       - type: file
-        url: https://raw.githubusercontent.com/dulvui/ball2box/807bbf83c4611346c8281c3283db3d07308e4e2a/flatpak/org.simondalvai.ball2box.desktop
+        url: https://raw.githubusercontent.com/dulvui/ball2box/bec284cbfd3250513017bdc967d3ce18e26c4b5/flatpak/org.simondalvai.ball2box.desktop
         sha256: 6a6d1d14649730dc3c61ce8c62baed9d2b8f2c71c801b1a8420275361bdff2e1
       - type: file
-        url: https://raw.githubusercontent.com/dulvui/ball2box/807bbf83c4611346c8281c3283db3d07308e4e2a/flatpak/org.simondalvai.ball2box.appdata.xml
-        sha256: c621945bf2f52186e8d3dea69fce9cfecf695439ea60fd288c77b74cea73d443
+        url: https://raw.githubusercontent.com/dulvui/ball2box/bec284cbfd3250513017bdc967d3ce18e26c4b5/flatpak/org.simondalvai.ball2box.appdata.xml
+        sha256: f3187ea4be9c0acb06adbea147c066078de2a9cdadbd4b95c2c55085977f6528
       - type: file
         path: icon-256.png
