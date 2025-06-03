@@ -28,10 +28,10 @@ modules:
         url: https://codeberg.org/dulvui/ball2box/releases/download/v4.1.7/ball2box-linux-4.1.7.zip
         sha256: 07faccd66bc34d34c216e454ae0762fcb9da5b9a9d0c2c9d7ef93c6f43948cbb
       - type: file
-        url: https://codeberg.org/dulvui/ball2box/raw/commit/9089a4440cab9b61046f401aa9e92d39a291ab10/flatpak/org.simondalvai.ball2box.desktop
+        url: https://codeberg.org/dulvui/ball2box/raw/commit/cefb4853dea37056bf97d9c5a7f7cb47175ac0cf/flatpak/org.simondalvai.ball2box.desktop
         sha256: 6a6d1d14649730dc3c61ce8c62baed9d2b8f2c71c801b1a8420275361bdff2e1
       - type: file
-        url: https://codeberg.org/dulvui/ball2box/raw/commit/9089a4440cab9b61046f401aa9e92d39a291ab10/flatpak/org.simondalvai.ball2box.appdata.xml
-        sha256: 14a488205e12567e5c73ad2e09c37add4fe6c4c76525e6229fb6f8a6265755f6
+        url: https://codeberg.org/dulvui/ball2box/raw/commit/cefb4853dea37056bf97d9c5a7f7cb47175ac0cf/flatpak/org.simondalvai.ball2box.appdata.xml
+        sha256: d35d234f678f8c01b384c52c87904e69f4ac92bc5d82552529a08d1300ef2642
       - type: file
         path: icon-256.png
