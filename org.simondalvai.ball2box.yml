@@ -22,16 +22,16 @@ modules:
       # Icons
       - install -D icon-256.png /app/share/icons/hicolor/256x256/apps/org.simondalvai.ball2box.png
     sources:
-      # The game is pulled from GitHub
+      # The game is pulled from Codeberg
       - type: archive
         strip-components: 0
-        url: https://github.com/dulvui/ball2box/releases/download/v4.1.6/ball2box.tar.xz
-        sha256: 13ced2a53860b41c9fd2a4faedc58c22c578c406720be18f783a4d37022c1fd3
+        url: https://codeberg.org/dulvui/ball2box/releases/download/v4.1.7/ball2box-linux-4.1.7.zip
+        sha256: 07faccd66bc34d34c216e454ae0762fcb9da5b9a9d0c2c9d7ef93c6f43948cbb
       - type: file
-        url: https://raw.githubusercontent.com/dulvui/ball2box/bec284cbfd3250513017bdc967d3ce18e26c4b5/flatpak/org.simondalvai.ball2box.desktop
+        url: https://codeberg.org/dulvui/ball2box/raw/commit/cefb4853dea37056bf97d9c5a7f7cb47175ac0cf/flatpak/org.simondalvai.ball2box.desktop
         sha256: 6a6d1d14649730dc3c61ce8c62baed9d2b8f2c71c801b1a8420275361bdff2e1
       - type: file
-        url: https://raw.githubusercontent.com/dulvui/ball2box/d0d747c97fb227076af53addad06623b20b979cd/flatpak/org.simondalvai.ball2box.appdata.xml
-        sha256: 91d15b41b42aafb6164a93513e9567097c176536c16e4dc0f1bddc7c6a46ca05
+        url: https://codeberg.org/dulvui/ball2box/raw/commit/cefb4853dea37056bf97d9c5a7f7cb47175ac0cf/flatpak/org.simondalvai.ball2box.appdata.xml
+        sha256: d35d234f678f8c01b384c52c87904e69f4ac92bc5d82552529a08d1300ef2642
       - type: file
         path: icon-256.png
