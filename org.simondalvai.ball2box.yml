@@ -25,13 +25,13 @@ modules:
       # The game is pulled from Codeberg
       - type: archive
         strip-components: 0
-        url: https://codeberg.org/dulvui/ball2box/releases/download/v4.1.8/ball2box-linux-4.1.8.zip
-        sha256: 4af914d6df8f92786057bc0d5d5a7ac0d3ece4f33b54443c88dd8abb4536361f
+        url: https://codeberg.org/dulvui/ball2box/releases/download/v4.1.9/ball2box-linux-4.1.9.zip
+        sha256: c7cc6405d0c9094b38c623971bfa65a5293095b36990fafb8105b88fa16200e1
       - type: file
         url: https://codeberg.org/dulvui/ball2box/raw/commit/f02789b0f4aa0d203d3d4aeeb9cc2fa4f7fed784/flatpak/org.simondalvai.ball2box.desktop
         sha256: 6a6d1d14649730dc3c61ce8c62baed9d2b8f2c71c801b1a8420275361bdff2e1
       - type: file
-        url: https://codeberg.org/dulvui/ball2box/raw/commit/f02789b0f4aa0d203d3d4aeeb9cc2fa4f7fed784/flatpak/org.simondalvai.ball2box.appdata.xml
-        sha256: 710414ec5c2cc668bad85e7bbd8024c0032b902916ec4256bde903a431178069
+        url: https://codeberg.org/dulvui/ball2box/raw/commit/4bac2eb759909257deb1d10d45f6f77b836498b1/flatpak/org.simondalvai.ball2box.appdata.xml
+        sha256: 454b695e3b61460d1bcb06fdf40b79929f65216564a21b85dbc2518e12cbf429
       - type: file
         path: icon-256.png
